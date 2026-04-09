@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>YaariBot 💕</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Pacifico&display=swap" rel="stylesheet">
+<script src="https://pl29017773.profitablecpmratenetwork.com/05/6f/b5/056fb5547cc2ef8fc464292cea93f65a.js"></script>
+<script src="https://pl29017772.profitablecpmratenetwork.com/7d/5e/8b/7d5e8b16aa4faba0dccdd077a1938bd9.js"></script>
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+html{height:100%;}
+body{font-family:'Nunito',sans-serif;background:#07030f;color:#f3e8ff;height:100%;overflow:hidden;}
+button,input,textarea{font-family:'Nunito',sans-serif;outline:none;border:none;background:none;color:inherit;}
+button{cursor:pointer;touch-action:manipulation;}
+textarea{resize:none;}
+:root{--bg:#07030f;--c1:#0f0820;--c2:#170c2c;--bdr:#281742;--acc:#c026d3;--pink:#f0abfc;--pur:#7c3aed;--txt:#f3e8ff;--mut:#7c6a99;--grn:#10b981;}
+body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;background:radial-gradient(ellipse 120% 55% at 50% -5%,rgba(192,38,211,.13) 0%,transparent 55%),radial-gradient(ellipse 60% 40% at 90% 95%,rgba(124,58,237,.08) 0%,transparent 50%);}
+.fh{position:fixed;z-index:0;pointer-events:none;opacity:0;animation:fh linear infinite;}
+@keyframes fh{0%{transform:translateY(105vh);opacity:0;}6%{opacity:.6;}88%{opacity:.4;}100%{transform:translateY(-60px);opacity:0;}}
+.page{display:none;position:fixed;inset:0;z-index:10;flex-direction:column;overflow:hidden;}
+.page.active{display:flex;}
+.scr{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;}
+.scr::-webkit-scrollbar{width:0;}
+#nav{position:fixed;bottom:0;left:0;right:0;z-index:500;display:flex;background:rgba(7,3,15,.97);backdrop-filter:blur(20px);border-top:1px solid var(--bdr);padding:8px 0 12px;}
+.ni{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;padding:4px 0;cursor:pointer;touch-action:manipulation;user-select:none;}
+.ni-i{font-size:22px;line-height:1;}
+.ni:active .ni-i{transform:scale(.85);}
+.ni-l{font-size:10px;font-weight:700;color:var(--mut);}
+.ni.on .ni-l{color:var(--acc);}
+.ni.on .ni-i{filter:drop-shadow(0 0 7px rgba(192,38,211,.8));}
+#pgHome{background:var(--bg);}
+#pgHome .scr{padding-bottom:70px;}
+.hw{display:flex;flex-direction:column;align-items:center;padding:26px 16px 20px;}
+.logo{font-family:'Pacifico',cursive;font-size:36px;text-align:center;background:linear-gradient(135deg,var(--acc),var(--pink),var(--pur));-webkit-background-clip:text;-webkit-text-fill-color:transparent;filter:drop-shadow(0 0 20px rgba(192,38,211,.4));margin-bottom:3px;}
+.logo-s{font-size:11px;color:var(--mut);text-align:center;letter-spacing:1.2px;margin-bottom:12px;}
+.aip{display:inline-flex;align-items:center;gap:5px;background:rgba(124,58,237,.12);border:1px solid rgba(124,58,237,.28);color:#c4b5fd;font-size:10px;font-weight:800;padding:4px 13px;border-radius:20px;margin-bottom:18px;}
+.adb{width:100%;background:var(--c1);border:1px solid var(--bdr);border-radius:12px;overflow:hidden;min-height:60px;display:flex;align-items:center;justify-content:center;position:relative;margin-bottom:20px;}
+.al{position:absolute;top:3px;left:7px;font-size:8px;color:var(--mut);text-transform:uppercase;letter-spacing:1px;}
+.sl{font-size:10px;font-weight:800;color:var(--mut);text-transform:uppercase;letter-spacing:1px;align-self:flex-start;margin-bottom:11px;width:100%;}
+.cg{display:grid;grid-template-columns:1fr 1fr;gap:12px;width:100%;margin-bottom:20px;}
+.cc{background:var(--c1);border:2px solid var(--bdr);border-radius:16px;padding:16px 12px 14px;text-align:center;position:relative;overflow:hidden;cursor:pointer;user-select:none;touch-action:manipulation;transition:border-color .2s,box-shadow .2s;}
+.cc:active{transform:scale(.94);}
+.cc.s{border-color:var(--acc);box-shadow:0 0 22px rgba(192,38,211,.24);}
+.cc::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(192,38,211,.08),rgba(124,58,237,.04));opacity:0;transition:opacity .2s;pointer-events:none;}
+.cc.s::before{opacity:1;}
+@keyframes av{0%,100%{transform:translateY(0);}50%{transform:translateY(-5px);}}
+.cav{font-size:44px;display:block;margin-bottom:8px;animation:av 3.5s ease-in-out infinite;}
+.cn{font-size:15px;font-weight:900;margin-bottom:3px;}
+.cv{font-size:10px;color:var(--mut);line-height:1.4;margin-bottom:6px;}
+.col{display:inline-flex;align-items:center;gap:4px;font-size:10px;color:var(--grn);font-weight:700;}
+@keyframes gb{0%,100%{opacity:1;}50%{opacity:.2;}}
+.gd{width:6px;height:6px;border-radius:50%;background:var(--grn);animation:gb 1.4s infinite;}
+.cs{font-size:10px;color:var(--mut);margin-top:5px;font-style:italic;}
+.fg{width:100%;margin-bottom:15px;}
+.fl{display:block;font-size:10px;font-weight:800;color:var(--mut);text-transform:uppercase;letter-spacing:.8px;margin-bottom:7px;}
+.fi{width:100%;background:var(--c1);border:1.5px solid var(--bdr);color:var(--txt);padding:13px 15px;border-radius:12px;font-size:15px;font-weight:700;-webkit-appearance:none;}
+.fi:focus{border-color:var(--acc);}
+.fi::placeholder{color:var(--mut);}
+.bst{width:100%;background:linear-gradient(135deg,var(--acc),var(--pur));color:#fff;border:none;padding:15px;border-radius:13px;font-size:17px;font-weight:900;box-shadow:0 6px 26px rgba(192,38,211,.32);margin-bottom:12px;touch-action:manipulation;}
+.bst:active{transform:scale(.96);}
+.bst:disabled{opacity:.35;pointer-events:none;}
+.dc{font-size:10px;color:var(--mut);text-align:center;line-height:1.7;padding:0 8px;}
+#pgChat{background:var(--bg);}
+.ch{flex-shrink:0;background:rgba(7,3,15,.97);backdrop-filter:blur(24px);border-bottom:1px solid var(--bdr);padding:12px 12px 10px;display:flex;align-items:center;gap:10px;z-index:50;}
+.bb{color:var(--mut);font-size:22px;padding:5px 7px;flex-shrink:0;}
+.bb:active{opacity:.6;}
+.ha{font-size:32px;flex-shrink:0;animation:av 3.5s ease-in-out infinite;}
+.hi{flex:1;min-width:0;}
+.hn{font-size:15px;font-weight:900;display:flex;align-items:center;gap:6px;flex-wrap:wrap;}
+.at{font-size:9px;color:#c4b5fd;background:rgba(124,58,237,.15);border:1px solid rgba(124,58,237,.28);padding:2px 7px;border-radius:10px;font-weight:800;}
+.hs{font-size:11px;color:var(--grn);display:flex;align-items:center;gap:4px;margin-top:2px;}
+.cr{display:flex;align-items:center;gap:5px;margin-top:4px;}
+.cl{font-size:10px;color:var(--mut);}
+.ct{flex:1;height:3px;background:var(--bdr);border-radius:3px;overflow:hidden;}
+.cb{height:100%;background:linear-gradient(90deg,var(--pink),var(--acc));border-radius:3px;transition:width 1.2s ease;}
+.cp{font-size:10px;color:var(--pink);font-weight:800;white-space:nowrap;}
+.ha2{display:flex;gap:6px;flex-shrink:0;}
+.ab{width:33px;height:33px;border-radius:50%;background:var(--c2);border:1px solid var(--bdr);color:var(--txt);font-size:15px;display:flex;align-items:center;justify-content:center;touch-action:manipulation;}
+.ab:active{transform:scale(.88);}
+.cbo{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;padding:12px 12px 8px;display:flex;flex-direction:column;gap:8px;}
+.cbo::-webkit-scrollbar{width:0;}
+.ds{align-self:center;font-size:10px;color:var(--mut);background:rgba(255,255,255,.04);border:1px solid var(--bdr);border-radius:20px;padding:3px 12px;margin:2px 0;}
+@keyframes mi{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
+.mr{display:flex;flex-direction:column;gap:3px;max-width:82%;animation:mi .2s ease;}
+.mr.me{align-self:flex-end;align-items:flex-end;}
+.mr.her{align-self:flex-start;align-items:flex-start;}
+.bl{padding:11px 14px;border-radius:18px;font-size:14px;line-height:1.55;word-break:break-word;white-space:pre-wrap;}
+.mr.me .bl{background:linear-gradient(135deg,var(--pur),var(--acc));color:#fff;border-bottom-right-radius:4px;box-shadow:0 3px 14px rgba(192,38,211,.22);}
+.mr.her .bl{background:var(--c2);border:1px solid var(--bdr);color:var(--txt);border-bottom-left-radius:4px;}
+.mm{font-size:10px;color:var(--mut);padding:0 3px;display:flex;align-items:center;gap:3px;}
+.tk{font-size:11px;color:#c4b5fd;}
+.tr{display:flex;align-items:center;gap:8px;align-self:flex-start;animation:mi .2s ease;}
+.tav{font-size:22px;}
+.tb{background:var(--c2);border:1px solid var(--bdr);border-radius:18px;border-bottom-left-radius:4px;padding:11px 16px;display:flex;gap:5px;align-items:center;}
+.tb span{width:7px;height:7px;border-radius:50%;background:var(--mut);animation:td 1.2s infinite;}
+.tb span:nth-child(2){animation-delay:.2s;}
+.tb span:nth-child(3){animation-delay:.4s;}
+@keyframes td{0%,60%,100%{transform:translateY(0);opacity:.4;}30%{transform:translateY(-5px);opacity:1;}}
+.lb{align-self:stretch;background:rgba(192,38,211,.07);border:1px solid rgba(192,38,211,.22);border-radius:13px;padding:13px;text-align:center;margin:3px 0;}
+.lb p{font-size:13px;color:var(--pink);font-weight:800;margin-bottom:9px;line-height:1.5;}
+.bw{background:linear-gradient(135deg,var(--acc),var(--pur));color:#fff;padding:10px 24px;border-radius:10px;font-size:13px;font-weight:800;touch-action:manipulation;}
+.bw:active{transform:scale(.95);}
+.ca{align-self:stretch;background:var(--c1);border:1px solid var(--bdr);border-radius:11px;overflow:hidden;min-height:56px;display:flex;align-items:center;justify-content:center;position:relative;margin:3px 0;}
+.cf{flex-shrink:0;background:rgba(7,3,15,.97);backdrop-filter:blur(24px);border-top:1px solid var(--bdr);padding:8px 10px 12px;display:flex;align-items:flex-end;gap:7px;z-index:50;}
+.fb{width:38px;height:38px;border-radius:50%;background:var(--c2);border:1px solid var(--bdr);color:var(--txt);font-size:17px;display:flex;align-items:center;justify-content:center;flex-shrink:0;touch-action:manipulation;}
+.fb:active{transform:scale(.88);}
+.iw{flex:1;background:var(--c2);border:1.5px solid var(--bdr);border-radius:22px;padding:8px 13px;display:flex;align-items:flex-end;gap:8px;}
+.iw:focus-within{border-color:rgba(192,38,211,.5);}
+.mt{flex:1;color:var(--txt);font-size:14px;font-weight:600;max-height:100px;min-height:22px;line-height:1.5;caret-color:var(--acc);}
+.mt::placeholder{color:var(--mut);}
+.sb{width:36px;height:36px;border-radius:50%;flex-shrink:0;background:linear-gradient(135deg,var(--acc),var(--pur));color:#fff;font-size:16px;display:flex;align-items:center;justify-content:center;box-shadow:0 3px 14px rgba(192,38,211,.32);touch-action:manipulation;}
+.sb:active{transform:scale(.88);}
+.sb:disabled{opacity:.35;pointer-events:none;}
+.et{position:absolute;bottom:62px;left:8px;right:8px;background:var(--c1);border:1px solid var(--bdr);border-radius:15px;padding:12px;z-index:400;display:none;box-shadow:0 -6px 30px rgba(0,0,0,.5);}
+.et.open{display:block;}
+.eg{display:flex;flex-wrap:wrap;gap:2px;}
+.ei{font-size:25px;padding:5px;border-radius:8px;cursor:pointer;touch-action:manipulation;}
+.ei:active{background:var(--c2);transform:scale(.88);}
+#pgChats{background:var(--bg);}
+#pgChats .scr{padding-bottom:70px;}
+.pt{font-size:18px;font-weight:900;padding:22px 16px 13px;flex-shrink:0;}
+.cl2{padding:0 14px 10px;}
+.ci{background:var(--c1);border:1px solid var(--bdr);border-radius:13px;padding:13px;margin-bottom:9px;display:flex;align-items:center;gap:11px;cursor:pointer;touch-action:manipulation;transition:transform .14s,border-color .14s;}
+.ci:active{transform:scale(.96);border-color:var(--acc);}
+.ci-a{font-size:36px;flex-shrink:0;}
+.ci-i{flex:1;min-width:0;}
+.ci-n{font-size:14px;font-weight:900;margin-bottom:3px;}
+.ci-p{font-size:12px;color:var(--mut);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.ci-r{display:flex;flex-direction:column;align-items:flex-end;gap:5px;flex-shrink:0;}
+.ci-t{font-size:10px;color:var(--mut);}
+.ci-c{width:18px;height:18px;border-radius:50%;background:var(--acc);color:#fff;font-size:10px;font-weight:900;display:flex;align-items:center;justify-content:center;}
+.em{text-align:center;padding:55px 20px;color:var(--mut);}
+.em-i{font-size:52px;display:block;margin-bottom:14px;}
+.em p{font-size:13px;line-height:1.7;}
+#pgProf{background:var(--bg);}
+#pgProf .scr{padding-bottom:70px;}
+.ps{padding:20px 14px 14px;}
+.ph{text-align:center;margin-bottom:20px;}
+.pbav{font-size:70px;display:block;margin-bottom:11px;animation:av 3s ease-in-out infinite;}
+.pnm{font-size:21px;font-weight:900;margin-bottom:3px;}
+.psb{font-size:11px;color:var(--mut);}
+.sg{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-bottom:15px;}
+.sc{background:var(--c1);border:1px solid var(--bdr);border-radius:12px;padding:13px 8px;text-align:center;}
+.sn{font-size:23px;font-weight:900;background:linear-gradient(135deg,var(--acc),var(--pink));-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.sb2{font-size:10px;color:var(--mut);font-weight:700;margin-top:2px;}
+.pc{background:var(--c1);border:1px solid var(--bdr);border-radius:13px;padding:15px;margin-bottom:11px;}
+.pct{font-size:12px;font-weight:900;letter-spacing:.3px;margin-bottom:11px;}
+.pi{margin-bottom:11px;}
+.pi:last-child{margin-bottom:0;}
+.pil{display:flex;justify-content:space-between;font-size:12px;font-weight:700;margin-bottom:4px;}
+.ptr{height:5px;background:var(--bdr);border-radius:5px;overflow:hidden;}
+.pf{height:100%;background:linear-gradient(90deg,var(--pink),var(--acc));border-radius:5px;transition:width 1s ease;}
+.str{display:flex;align-items:center;gap:12px;}
+.stn{font-size:40px;font-weight:900;background:linear-gradient(135deg,#f59e0b,var(--pink));-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.sti{font-size:12px;color:var(--mut);line-height:1.65;}
+.sth{color:var(--pink);font-weight:800;}
+.pad{background:var(--c1);border:1px solid var(--bdr);border-radius:13px;overflow:hidden;min-height:260px;display:flex;align-items:center;justify-content:center;position:relative;margin-top:4px;}
+.mo{position:fixed;inset:0;background:rgba(0,0,0,.78);backdrop-filter:blur(12px);z-index:999;display:none;align-items:center;justify-content:center;padding:20px;}
+.mo.open{display:flex;}
+@keyframes mo{from{transform:scale(.8);opacity:0;}to{transform:scale(1);opacity:1;}}
+.mb{background:var(--c1);border:1px solid var(--bdr);border-radius:20px;padding:28px 22px;text-align:center;max-width:320px;width:100%;animation:mo .28s cubic-bezier(.34,1.56,.64,1);}
+.mi{font-size:48px;margin-bottom:10px;}
+.mt2{font-size:17px;font-weight:900;color:var(--pink);margin-bottom:5px;}
+.md{font-size:13px;color:var(--mut);line-height:1.7;margin-bottom:15px;}
+.mc{background:var(--c2);border:1px solid var(--bdr);color:var(--txt);padding:11px 26px;border-radius:11px;font-size:14px;font-weight:800;touch-action:manipulation;}
+.mc:active{transform:scale(.95);}
+.toast{position:fixed;bottom:76px;left:50%;transform:translateX(-50%) translateY(110px);background:var(--c1);border:1px solid var(--bdr);color:var(--txt);padding:11px 20px;border-radius:13px;font-size:13px;font-weight:700;z-index:9999;pointer-events:none;white-space:nowrap;transition:transform .28s cubic-bezier(.34,1.56,.64,1);}
+.toast.show{transform:translateX(-50%) translateY(0);}
+</style>
+</head>
+<body>
+<div id="pgHome" class="page active">
+  <div class="scr"><div class="hw">
+    <div class="logo">YaariBot 💕</div>
+    <div class="logo-s">AI Chat Companions</div>
+    <div class="aip">🤖 AI Fictional Characters — Fun Only</div>
+    <div class="adb"><span class="al">Advertisement</span>
+      <script async="async" data-cfasync="false" src="https://pl29017771.profitablecpmratenetwork.com/d968948f7102572f02a98c6bf039e133/invoke.js"></script>
+      <div id="container-d968948f7102572f02a98c6bf039e133"></div>
+    </div>
+    <div class="sl">💝 Kisi Ek Se Baat Karo</div>
+    <div class="cg" id="cg"></div>
+    <div class="fg"><label class="fl" for="ni2">Tumhara Naam 😊</label>
+      <input type="text" class="fi" id="uname" placeholder="Apna naam likho..." maxlength="18" autocomplete="off" autocorrect="off" spellcheck="false">
+    </div>
+    <button class="bst" id="bst" disabled>💬 Baat Shuru Karo</button>
+    <p class="dc">⚠️ YaariBot ke characters AI fictional hain. Real insaan nahi. Sirf fun ke liye.</p>
+  </div></div>
+</div>
+
+<div id="pgChat" class="page">
+  <div class="ch">
+    <button class="bb" id="btnBack">←</button>
+    <div class="ha" id="hav">🌸</div>
+    <div class="hi">
+      <div class="hn"><span id="hname">Zara</span><span class="at">🤖 AI</span></div>
+      <div class="hs"><span class="gd"></span><span id="hst">Online</span></div>
+      <div class="cr"><span class="cl">💕</span><div class="ct"><div class="cb" id="cbar" style="width:10%"></div></div><span class="cp" id="cpct">10%</span></div>
+    </div>
+    <div class="ha2">
+      <button class="ab" id="bvid">📹</button>
+      <button class="ab" id="bvoi">📞</button>
+    </div>
+  </div>
+  <div class="cbo" id="cbo"><div class="ds">Aaj 💕</div></div>
+  <div class="et" id="etray"><div class="eg" id="eg"></div></div>
+  <div class="cf">
+    <button class="fb" id="ebtn">😊</button>
+    <div class="iw"><textarea class="mt" id="mta" placeholder="Message likho..." rows="1"></textarea></div>
+    <button class="fb" id="bvm">🎤</button>
+    <button class="sb" id="sndb" disabled>➤</button>
+  </div>
+</div>
+
+<div id="pgChats" class="page">
+  <div class="pt">💬 Chats</div>
+  <div class="scr"><div class="cl2" id="cl2"></div></div>
+</div>
+
+<div id="pgProf" class="page">
+  <div class="scr"><div class="ps">
+    <div class="ph"><span class="pbav" id="pav">👤</span><div class="pnm" id="pnm">Tumhara Naam</div><div class="psb">YaariBot Member 💕</div></div>
+    <div class="sg">
+      <div class="sc"><div class="sn" id="sm">0</div><div class="sb2">Messages</div></div>
+      <div class="sc"><div class="sn" id="ss">0</div><div class="sb2">🔥 Streak</div></div>
+      <div class="sc"><div class="sn" id="sf">0</div><div class="sb2">Friends</div></div>
+    </div>
+    <div class="pc"><div class="pct">💕 Crush Levels</div><div id="crlist"></div></div>
+    <div class="pc"><div class="pct">🔥 Streak</div>
+      <div class="str"><div class="stn" id="stn">0</div>
+        <div class="sti">Din se lagatar baat!<br><span class="sth">7 din = Video Call 📹</span></div>
+      </div>
+    </div>
+    <div class="pad"><span class="al">Advertisement</span>
+      <script>atOptions={'key':'4c4dc4223f1b55dd083c51c7f858d0f2','format':'iframe','height':250,'width':300,'params':{}};</script>
+      <script src="https://www.highperformanceformat.com/4c4dc4223f1b55dd083c51c7f858d0f2/invoke.js"></script>
+    </div>
+  </div></div>
+</div>
+
+<nav id="nav">
+  <div class="ni on" id="n0"><span class="ni-i">🏠</span><span class="ni-l">Home</span></div>
+  <div class="ni" id="n1"><span class="ni-i">💬</span><span class="ni-l">Chats</span></div>
+  <div class="ni" id="n2"><span class="ni-i">👤</span><span class="ni-l">Profile</span></div>
+</nav>
+
+<div class="mo" id="modal">
+  <div class="mb">
+    <div class="mi" id="micon">📹</div>
+    <div class="mt2" id="mttl">Coming Soon!</div>
+    <div class="md" id="mdsc">Jald aa raha hai!</div>
+    <button class="mc" id="mclose">Theek Hai 👍</button>
+  </div>
+</div>
+
+<div class="toast" id="tst"></div>
+
+<script>
+(function(){
+'use strict';
+
+// Protection
+document.addEventListener('contextmenu',function(e){e.preventDefault();});
+document.addEventListener('keydown',function(e){
+  if(e.key==='F12'||(e.ctrlKey&&e.key==='u')||(e.ctrlKey&&e.shiftKey&&'ICJ'.includes(e.key)))e.preventDefault();
+});
+
+// Hearts
+['💕','💗','💖','✨','🌸','💝','⭐','🌙'].forEach(function(h){
+  var d=document.createElement('div');d.className='fh';d.textContent=h;
+  d.style.cssText='left:'+(Math.random()*100)+'vw;font-size:'+(10+Math.random()*8)+'px;animation-duration:'+(14+Math.random()*14)+'s;animation-delay:'+(Math.random()*18)+'s;';
+  document.body.appendChild(d);
+});
+
+// API
+var GU='https://api.groq.com/openai/v1/chat/completions';
+var GK='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';
+var GM='llama-3.3-70b-versatile';
+
+// Characters
+var CH=[
+  {id:'zara',name:'Zara',av:'🌸',vibe:'Funny • Bold • Sarcastic',
+   g:['Heyy! finally koi toh aaya 😄 kia haal hai?','Oh hello! kidhar the itni der? 🙄','Aye yaar! kia scene hai? 😂'],
+   s:'Tu Zara hai — 22 saal ki Pakistani larki, Lahore se. Roman Urdu mein baat kar. Funny bold sarcastic dil ki achi. Alfaaz: yaar kia haan matlab omg btw. Short ya 2-3 line replies. Emojis: 😂🙄😄😏. Kabhi user se life poochho. KABHI MAT KAHO ke AI hun.'},
+  {id:'hania',name:'Hania',av:'🌙',vibe:'Sweet • Caring • Emotional',
+   g:['Hiiii 🥺 kaisa feel kar rahe ho?','Aww hello! Main wait kar rahi thi 💕','Heyy 🌸 sab theek hai na?'],
+   s:'Tu Hania hai — 20 saal ki Pakistani larki, Karachi se. Roman Urdu mein baat kar. Sweet caring emotional. Alfaaz: aww haan sach mein uff yaar hai na. Emojis: 🥺💕🌸😊. User ka haal poochho. KABHI MAT KAHO ke AI hun.'},
+  {id:'sara',name:'Sara',av:'⭐',vibe:'Smart • Direct • Real Talk',
+   g:['Hello! seedha batao kia scene hai? 😏','Oh finally — kia soch ke aaye?','Haan bolo kia baat karni hai'],
+   s:'Tu Sara hai — 23 saal ki Pakistani engineering student, Islamabad. Roman Urdu mein baat kar. Smart direct opinionated. Alfaaz: dekho exactly seriously matlab. Seedha replies. KABHI MAT KAHO ke AI hun.'},
+  {id:'maryam',name:'Maryam',av:'🌺',vibe:'Shy • Innocent • Warm',
+   g:['H-hi... 😳 um... main Maryam hun... aap?','Oh hello... kaisa hai aap? 🌸','Hi... 🥺 pehli baar aye ho na?'],
+   s:'Tu Maryam hai — 19 saal ki Pakistani larki, Faisalabad se. Roman Urdu mein baat kar. Shy innocent warm. Alfaaz: um matlab hehe actually hai na. Dheere dheere comfortable ho. KABHI MAT KAHO ke AI hun.'}
+];
+
+// State
+var S={user:'',si:-1,cc:null,mc:0,tm:0,st:0,ld:'',crush:{zara:10,hania:10,sara:10,maryam:10},chats:{}};
+try{var sv=localStorage.getItem('yb5');if(sv)Object.assign(S,JSON.parse(sv));}catch(e){}
+var td=new Date().toDateString();
+if(S.ld&&S.ld!==td){var df=(new Date(td)-new Date(S.ld))/86400000;S.st=df<=1.5?(S.st||0)+1:0;}
+S.ld=td;
+function save(){try{localStorage.setItem('yb5',JSON.stringify(S));}catch(e){}}
+save();
+
+// Toast
+var tt;
+function toast(m){var e=document.getElementById('tst');e.textContent=m;e.classList.add('show');clearTimeout(tt);tt=setTimeout(function(){e.classList.remove('show');},3000);}
+
+// Modal
+function modal(i,t,d){document.getElementById('micon').textContent=i;document.getElementById('mttl').textContent=t;document.getElementById('mdsc').textContent=d;document.getElementById('modal').classList.add('open');}
+document.getElementById('mclose').addEventListener('click',function(){document.getElementById('modal').classList.remove('open');});
+document.getElementById('modal').addEventListener('click',function(e){if(e.target===this)this.classList.remove('open');});
+
+// Pages
+function pg(id){
+  document.querySelectorAll('.page').forEach(function(p){p.classList.remove('active');});
+  document.getElementById(id).classList.add('active');
+  document.getElementById('nav').style.display=id==='pgChat'?'none':'flex';
+  if(id==='pgChats')rCL();
+  if(id==='pgProf')rProf();
+  if(id==='pgHome')rCG();
+}
+
+// Nav
+document.getElementById('n0').addEventListener('click',function(){pg('pgHome');nHL(0);});
+document.getElementById('n1').addEventListener('click',function(){pg('pgChats');nHL(1);});
+document.getElementById('n2').addEventListener('click',function(){pg('pgProf');nHL(2);});
+function nHL(i){document.querySelectorAll('.ni').forEach(function(n,j){n.classList.toggle('on',i===j);});}
+
+// Render chars
+function rCG(){
+  var g=document.getElementById('cg');g.innerHTML='';
+  CH.forEach(function(c,i){
+    var m=(S.chats[c.id]||[]).length,cr=S.crush[c.id]||10;
+    var d=document.createElement('div');d.className='cc'+(S.si===i?' s':'');
+    d.innerHTML='<span class="cav" style="animation-delay:'+(i*.6)+'s">'+c.av+'</span><div class="cn">'+c.name+'</div><div class="cv">'+c.vibe+'</div><div class="col"><span class="gd"></span>Online</div><div class="cs">💕'+cr+'% • '+m+' msgs</div>';
+    d.addEventListener('click',function(){selC(i);});
+    g.appendChild(d);
+  });
+  chkS();
+}
+rCG();
+
+function selC(i){
+  S.si=i;
+  document.querySelectorAll('.cc').forEach(function(c,j){c.classList.toggle('s',i===j);});
+  chkS();
+}
+
+function chkS(){document.getElementById('bst').disabled=!(S.si>=0&&S.user.trim().length>0);}
+
+// Name
+var unm=document.getElementById('uname');
+if(S.user)unm.value=S.user;
+unm.addEventListener('input',function(){S.user=this.value.trim();chkS();});
+
+// Start
+document.getElementById('bst').addEventListener('click',function(){
+  if(S.si<0||!S.user)return;
+  var c=CH[S.si];S.cc=c.id;
+  if(!S.chats[c.id])S.chats[c.id]=[];
+  save();openChat(c);
+});
+
+// Open chat
+function openChat(c){
+  document.getElementById('hav').textContent=c.av;
+  document.getElementById('hname').textContent=c.name;
+  updCr(c.id);setSt('Online');
+  var b=document.getElementById('cbo');b.innerHTML='<div class="ds">Aaj 💕</div>';
+  var h=S.chats[c.id]||[];
+  h.forEach(function(m){if(m.side)addB(m.txt,m.side,m.time,false);});
+  S.mc=h.filter(function(m){return m.side==='me';}).length;
+  pg('pgChat');scr();
+  if(h.length===0){
+    var gr=c.g[Math.floor(Math.random()*c.g.length)];
+    setTimeout(function(){showT();},800);
+    setTimeout(function(){hideT();var msg=gr+'\n\nBtw main '+c.name+' hun 😊 tum '+S.user+' ho na?';addB(msg,'her',gt(),true);svM(c.id,msg,'her');},2200);
+  }
+}
+
+// Back
+document.getElementById('btnBack').addEventListener('click',function(){
+  hideT();busy=false;
+  document.getElementById('sndb').disabled=false;
+  setSt('Online');pg('pgHome');nHL(0);rCG();
+});
+
+// Header buttons
+document.getElementById('bvid').addEventListener('click',function(){modal('📹','Video Call 📹','7 din baat karo — Video Call unlock hogi! 💕');});
+document.getElementById('bvoi').addEventListener('click',function(){modal('📞','Voice Call 📞','3 din baat karo toh Voice Call unlock hogi! 🥺');});
+document.getElementById('bvm').addEventListener('click',function(){modal('🎤','Voice Message 🎤','Jald aa raha hai! Tab tak text karo 😊');});
+
+// Emoji
+var EMOJ=['😊','😂','🥺','😍','😎','🤔','😅','😭','🔥','💕','💖','✨','😏','🙄','🤣','👀','💯','🥰','😢','🫶','🎉','👍','❤️','🌸','💝','😋','🤩','🫠','😤','😌'];
+var eg=document.getElementById('eg');
+EMOJ.forEach(function(em){
+  var d=document.createElement('div');d.className='ei';d.textContent=em;
+  d.addEventListener('click',function(){
+    var ta=document.getElementById('mta');ta.value+=em;ta.focus();rTA();updSB();
+    document.getElementById('etray').classList.remove('open');
+  });
+  eg.appendChild(d);
+});
+document.getElementById('ebtn').addEventListener('click',function(e){e.stopPropagation();document.getElementById('etray').classList.toggle('open');});
+document.addEventListener('click',function(e){if(!e.target.closest('#ebtn')&&!e.target.closest('#etray'))document.getElementById('etray').classList.remove('open');});
+
+// Input
+var mta=document.getElementById('mta');
+mta.addEventListener('input',function(){rTA();updSB();});
+mta.addEventListener('keydown',function(e){if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();send();}});
+function rTA(){mta.style.height='auto';mta.style.height=Math.min(mta.scrollHeight,100)+'px';}
+function updSB(){document.getElementById('sndb').disabled=!mta.value.trim().length||busy;}
+document.getElementById('sndb').addEventListener('click',function(){send();});
+
+// Send
+var busy=false;
+function send(){
+  var txt=mta.value.trim();if(!txt||busy)return;
+  if(S.mc>=15){showLim();return;}
+  mta.value='';mta.style.height='auto';updSB();
+  addB(txt,'me',gt(),true);svM(S.cc,txt,'me');
+  S.mc++;S.tm++;save();
+  if(S.tm%10===0)addCAd();
+  busy=true;document.getElementById('sndb').disabled=true;
+  var td2=900+Math.random()*1200,rd=5000+Math.random()*5000;
+  setTimeout(function(){showT();},td2);
+  setTimeout(function(){
+    hideT();setSt('typing...');
+    apiCall(txt).then(function(r){
+      setSt('Online');addB(r,'her',gt(),true);svM(S.cc,r,'her');
+      S.crush[S.cc]=Math.min(100,(S.crush[S.cc]||10)+Math.floor(Math.random()*4)+2);
+      updCr(S.cc);save();rCG();
+    }).catch(function(e){
+      console.warn(e);setSt('Online');
+      var fb=getFB(txt);addB(fb,'her',gt(),true);svM(S.cc,fb,'her');
+      toast('⚠️ Net slow — retry ho raha hai');
+    }).then(function(){busy=false;updSB();});
+  },rd);
+}
+
+// API
+function apiCall(msg){
+  var c=CH[S.si],h=S.chats[c.id]||[];
+  var ms=[{role:'system',content:c.s+'\n\nUser ka naam: '+S.user+'. Roman Urdu mein jawab do. Max 2-3 sentences.'}];
+  h.slice(-12).forEach(function(m){
+    if(m.side==='me')ms.push({role:'user',content:m.txt});
+    if(m.side==='her')ms.push({role:'assistant',content:m.txt});
+  });
+  ms.push({role:'user',content:msg});
+  return fetch(GU,{
+    method:'POST',
+    headers:{'Content-Type':'application/json','Authorization':'Bearer '+GK},
+    body:JSON.stringify({model:GM,messages:ms,max_tokens:180,temperature:0.88,top_p:0.9,frequency_penalty:0.3})
+  }).then(function(r){
+    if(!r.ok)return r.text().then(function(t){throw new Error(r.status+':'+t);});
+    return r.json();
+  }).then(function(d){
+    if(!d.choices||!d.choices[0]||!d.choices[0].message)throw new Error('bad response');
+    return d.choices[0].message.content.trim();
+  });
+}
+
+// Fallback
+function getFB(u){
+  var id=S.cc,fb={
+    zara:['haha theek hai yaar 😂','uff sach mein? 🙄','acha interesting 😏','omg really? 😂'],
+    hania:['aww yaar 🥺','haan na bilkul 💕','sach mein? 🥺','achi baat hai 😊'],
+    sara:['haan theek hai','interesting actually','dekho soch lo','exactly 😏'],
+    maryam:['um... haan 🌸','hehe okay 🥺','acha theek hai 😊','um... shukriya 🌸']
+  };
+  var a=fb[id]||fb.zara;return a[Math.floor(Math.random()*a.length)];
+}
+
+// Typing
+var tEl=null;
+function showT(){
+  if(tEl)return;var c=CH[S.si];if(!c)return;
+  tEl=document.createElement('div');tEl.className='tr';
+  tEl.innerHTML='<span class="tav">'+c.av+'</span><div class="tb"><span></span><span></span><span></span></div>';
+  document.getElementById('cbo').appendChild(tEl);scr();setSt('typing...');
+}
+function hideT(){if(tEl){tEl.remove();tEl=null;}}
+function setSt(t){document.getElementById('hst').textContent=t;}
+
+// Bubble
+function addB(txt,side,time,a){
+  var b=document.getElementById('cbo'),r=document.createElement('div');
+  r.className='mr '+side;
+  var tk=side==='me'?'<span class="tk">✓✓</span>':'';
+  r.innerHTML='<div class="bl">'+es(txt)+'</div><div class="mm">'+time+' '+tk+'</div>';
+  b.appendChild(r);scr();
+}
+function es(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\n/g,'<br>');}
+
+// Save
+function svM(id,txt,side){
+  if(!S.chats[id])S.chats[id]=[];
+  S.chats[id].push({txt:txt,side:side,time:gt()});
+  if(S.chats[id].length>100)S.chats[id].splice(0,4);
+  save();
+}
+
+// Crush UI
+function updCr(id){var v=S.crush[id]||10;document.getElementById('cbar').style.width=v+'%';document.getElementById('cpct').textContent=v+'%';}
+
+// Limit
+function showLim(){
+  var c=CH[S.si],d=document.createElement('div');d.className='lb';
+  d.innerHTML='<p>💌 '+c.name+' aur baat karna chahti hai!<br>Ad dekho aur 15 messages lo 🎁</p><button class="bw">📺 Ad Dekho</button>';
+  d.querySelector('.bw').addEventListener('click',function(){d.innerHTML='<p style="color:var(--grn);font-weight:900;">✅ 15 messages unlock! 💕</p>';S.mc=0;toast('🎉 Unlock! 💕');});
+  document.getElementById('cbo').appendChild(d);scr();
+}
+
+// Chat ad
+function addCAd(){
+  var w=document.createElement('div');w.className='ca';
+  w.innerHTML='<span class="al">Advertisement</span><script>atOptions={\'key\':\'4c4dc4223f1b55dd083c51c7f858d0f2\',\'format\':\'iframe\',\'height\':60,\'width\':300,\'params\':{}};<\/script><script src="https://www.highperformanceformat.com/4c4dc4223f1b55dd083c51c7f858d0f2/invoke.js"><\/script>';
+  document.getElementById('cbo').appendChild(w);
+}
+
+// Chats list
+function rCL(){
+  var l=document.getElementById('cl2');
+  var h=Object.keys(S.chats).some(function(k){return(S.chats[k]||[]).length>0;});
+  if(!h){l.innerHTML='<div class="em"><span class="em-i">💭</span><p>Koi chat nahi.<br>Kisi se baat karo! 💕</p></div>';return;}
+  l.innerHTML='';
+  CH.forEach(function(c){
+    var ms=S.chats[c.id]||[];if(!ms.length)return;
+    var last=ms[ms.length-1],cnt=ms.filter(function(m){return m.side==='her';}).length;
+    var item=document.createElement('div');item.className='ci';
+    item.innerHTML='<div class="ci-a">'+c.av+'</div><div class="ci-i"><div class="ci-n">'+c.name+' <span style="font-size:9px;color:var(--mut)">🤖 AI</span></div><div class="ci-p">'+es((last.txt||'').slice(0,38))+'</div></div><div class="ci-r"><div class="ci-t">'+(last.time||'')+'</div><div class="ci-c">'+cnt+'</div></div>';
+    item.addEventListener('click',function(){S.si=CH.indexOf(c);S.cc=c.id;openChat(c);});
+    l.appendChild(item);
+  });
+}
+
+// Profile
+function rProf(){
+  var c=S.si>=0?CH[S.si]:null;
+  document.getElementById('pav').textContent=c?c.av:'👤';
+  document.getElementById('pnm').textContent=S.user||'Tumhara Naam';
+  document.getElementById('sm').textContent=S.tm||0;
+  document.getElementById('ss').textContent=S.st||0;
+  document.getElementById('sf').textContent=Object.keys(S.chats).filter(function(k){return(S.chats[k]||[]).length>0;}).length;
+  document.getElementById('stn').textContent=S.st||0;
+  var cl=document.getElementById('crlist');cl.innerHTML='';
+  CH.forEach(function(c){
+    var v=S.crush[c.id]||10,d=document.createElement('div');d.className='pi';
+    d.innerHTML='<div class="pil"><span>'+c.av+' '+c.name+'</span><span style="color:var(--pink)">'+v+'%</span></div><div class="ptr"><div class="pf" style="width:'+v+'%"></div></div>';
+    cl.appendChild(d);
+  });
+}
+
+// Helpers
+function gt(){var n=new Date();return String(n.getHours()).padStart(2,'0')+':'+String(n.getMinutes()).padStart(2,'0');}
+function scr(){var b=document.getElementById('cbo');setTimeout(function(){b.scrollTop=b.scrollHeight;},80);}
+
+// Restore
+if(S.user)chkS();
+if(S.si>=0)document.querySelectorAll('.cc').forEach(function(c,i){c.classList.toggle('s',i===S.si);});
+})();
+</script>
+</body>
+</html>
